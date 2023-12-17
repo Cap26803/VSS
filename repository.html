@@ -1,0 +1,66 @@
+<!-- repository.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Video Repository</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="repository.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo" title="Logo">
+            <img src="assets/media.svg" alt="Logo">
+        </a>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="repository.html#video-stored">Video Stored</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
+
+    <!-- Repository Content -->
+    <div class="repository-container">
+        <h1>Video Repository</h1>
+        <div id="videoMetadataContainer"></div>
+        <img class="background-image" src="assets/home.svg" alt="Wave background">
+        <section id="video-stored" class="video-stored-container">
+            <h2>Video Stored</h2>
+            <!-- Sample Video Cards -->
+            <div class="video-card">
+                <video width="320" height="240" controls>
+                    <source src="/uploads/VSS_try.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Fernando Alonso's Top Moments from 2023 season</h3>
+                <p>The two-time world champion's resurgence with his new team Aston Martin was one of the highlights of the season.</p>
+            </div>
+            <div class="video-card">
+                <video width="320" height="240" controls>
+                    <source src="/uploads/sample2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Video Title 2</h3>
+                <p>Description of Video 2.</p>
+            </div>
+            <!-- Add more video cards as needed -->
+        </section>
+
+
+        <!-- Additional Repository Content -->
+        <div class="additional-content">
+            <!-- Add more content related to the video repository here -->
+        </div>
+    </div>
+
+    <!-- Include the same footer as in index.html if applicable -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

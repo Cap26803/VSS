@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <img class="background-image" src="assets/home.svg" alt="Wave background">
+    <div class="login-wrapper">
+        <div class="login-side">
+            <a href="index.html" title="Logo">
+                <img class="logo" src="assets/media.svg" alt="Logo">
+            </a>
+            <div class="my-form__wrapper">
+                <div class="login-welcome-row">
+                    <h1>Welcome back &#x1F44F;</h1>
+                    <p>Please enter your details!</p>
+                </div>
+                <form class="my-form">
+                    <div class="text-field">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" placeholder="Enter your First Name" required>
+                        <img alt="Email Icon" title="Email Icon" src="assets/OIP.jfif">
+                    </div>
+                    <div class="text-field">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Enter your Last Name" required>
+                        <img alt="Name Icon" title="Name Icon" src="assets/OIP.jfif">
+                    </div>
+                    <div class="text-field">
+                        <label for="cars">Choose your role:</label>
+                        <select id="cars" name="cars" size="4" multiple>
+                            <option value="0"></option>
+                            <option value="viewer">Viewer</option>
+                            <option value="creator">Creator</option>
+                        </select>
+                    <div class="text-field">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <img alt="Email Icon" title="Email Icon" src="assets/email.svg">
+                    </div>
+                    <div class="text-field">
+                        <label for="password">Password:</label>
+                        <input id="password" type="password" name="password" placeholder="Your Password" title="Minimum 6 characters at 
+                                    least 1 Alphabet and 1 Number" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
+                            required>
+                        <img alt="Password Icon" title="Password Icon" src="assets/password.svg">
+                    </div>
+                    <input type="submit" class="my-form__button" value="Register">
+                        <div class="my-form__signup">
+                            <a href="login.html" title="have_account">
+                                Already have an account?
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="info-side">
+            <img src="assets/MAIN-GRAPHIC-1.png" alt="Mock" class="mockup">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
